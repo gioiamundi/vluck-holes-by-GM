@@ -4,7 +4,7 @@ AFRAME.registerComponent('beach', {
      
       let beachelements = document.querySelectorAll(".beach");
       let fotoplaya = document.querySelector("#fotoplaya");
-      let videosphere = document.querySelector("#videosphereentity");
+      let photosphere = document.querySelector("#phtotophereentity");
       
       
       let beach = () => {
