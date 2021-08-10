@@ -4,11 +4,12 @@ AFRAME.registerComponent('beach', {
      
       let beachelements = document.querySelectorAll(".beach");
       let fotoplaya = document.querySelector("#fotoplaya");
-      let photosphere = document.querySelector("#phtotophereentity");
+      let photospheredisplay = document.querySelector("#photophereentity");
       
       
       let beach = () => {
       fotoplaya.setAttribute("src", "#fotoplaya");
+      photospheredisplay.setAttribute("radius", ".7");
       beachelements.forEach((beachelement) => {
       beachelement.setAttribute("visible", true)})
     }
