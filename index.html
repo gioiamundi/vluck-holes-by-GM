@@ -22,7 +22,7 @@
        <a-assets>
         
          <img id="infinitociudad" src="https://cdn.glitch.com/e9571f99-510c-481d-8de3-05c45b438c60%2FLovepik_com-500376974-the-city-night-view-high-building-in-shanghai.jpg?v=1627765323381">
-         <img id="beach" src="https://cdn.glitch.com/e9571f99-510c-481d-8de3-05c45b438c60%2Fkris-guico-rsB-he-ye7w-unsplash.jpg?v=1627939350700">
+         <img id="fotoplaya" src="https://cdn.glitch.com/e9571f99-510c-481d-8de3-05c45b438c60%2Fkris-guico-rsB-he-ye7w-unsplash.jpg?v=1627939350700">
          <video id="videoclip" autoplay loop="true" src="https://cdn.glitch.com/e9571f99-510c-481d-8de3-05c45b438c60%2Fousideaudiocompleto_1.mp4?v=1628340236482" crossorigin="anonymous"></video>
          <a-asset-item id="tokyomodel" src="https://cdn.glitch.com/e9571f99-510c-481d-8de3-05c45b438c60%2FLITTLE%20TOKYO.glb?v=1627652868450"
          response-type="arraybuffer"></a-asset-item>
@@ -46,13 +46,13 @@
                     
        <a-gltf-model class="homeworld" src="#tokyomodel" animation="property:rotation; to:0 360 0; dur:90000; easing:linear;loop:true" position="3.14301 1.55914 -32.44733" scale="0.08 0.08 0.08" animation-mixer rotation="0.01228264381422366 170.12598086164346 0"></a-gltf-model>
        <a-gltf-model class="homeworld" src="#tokyomodel" animation="property:rotation; to:0 360 0; dur:90000; easing:linear; loop:true" position="-130.0657 -107.66022 154.2506" scale="0.6 0.6 0.6" animation-mixer></a-gltf-model>
-       <a-gltf-model src="#islaflotante" animation="property:rotation;to:0 360 0;dur:90000;loop:true" position="314.52536 -697.6417 -1733.75978" animation-mixer scale="9 9 9" rotation="0 360 0"></a-gltf-model>
+       <a-gltf-model src="#islaflotante" class="beach" animation="property:rotation;to:0 360 0;dur:90000;loop:true" position="314.52536 -697.6417 -1733.75978" animation-mixer scale="9 9 9" rotation="0 360 0"></a-gltf-model>
         
               
         
-        <a-entity id="photospheredisplay" src= "#beach" class="homeworld" position="0 1.8 0">
+        <a-entity id="photospheredisplay" src= "#fotoplaya" class="beach" position="0 1.8 0">
          
-          <a-sphere position="0 1.8 0" radius=".7" src="#beach" sphereexpand         
+          <a-sphere position="0 1.8 0" radius=".7" src="#fotoplaya" sphereexpand         
           animation="property: rotation; to: 0 360 0; easing: easeInOutSine; dur: 30000; loop: true; elasticity: 0"
           ></a-sphere>
            
